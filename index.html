@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Blogr landing page</title>
+</head>
+<body>
+    <header>
+        <section class="menu-section">
+            <div class="left-header-container">
+                <div class="logo-container">
+                    <img src="./images/logo.svg" alt="logo">
+                </div>
+                <div id="menu-container" class="menu-container" state="not-active">
+                    <ul class="menu">
+                        <li class="menu-elem">
+                            <div class="title-drop-down-container" area="not-expended">
+                                <p>Product</p>
+                                <svg class="mobile" xmlns="http://www.w3.org/2000/svg" width="10" height="7" stroke="#FF7B86"><path fill="none"  stroke-width="2" d="M1 1l4 4 4-4"/></svg>
+                                <svg class="desktop" xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg>
+                            </div>
+                            <ul class="drop-down-menu dropOne">
+                                <li class="drop-down-menu-elem"><a href="#">Overview</a></li>
+                                <li class="drop-down-menu-elem"><a href="#">Pricing</a></li>
+                                <li class="drop-down-menu-elem"><a href="#">Marketplace</a></li>
+                                <li class="drop-down-menu-elem"><a href="#">Features</a></li>
+                                <li class="drop-down-menu-elem"><a href="#">Integrations</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-elem">
+                            <div class="title-drop-down-container" area="not-expended">
+                                <p>Company</p>
+                                <svg class="mobile" xmlns="http://www.w3.org/2000/svg" width="10" height="7" stroke="#FF7B86"><path fill="none"  stroke-width="2" d="M1 1l4 4 4-4"/></svg>
+                                <svg class="desktop" xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg>
+                            </div>
+                            <ul class="drop-down-menu dropTwo">
+                                <li class="drop-down-menu-elem"><a href="#">About</a></li>
+                                <li class="drop-down-menu-elem"><a href="#">Team</a></li>
+                                <li class="drop-down-menu-elem"><a href="#">Blog</a></li>
+                                <li class="drop-down-menu-elem"><a href="#">Careers</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-elem">
+                            <div class="title-drop-down-container" area="not-expended">
+                                <p>Connect</p>
+                                <svg class="mobile" xmlns="http://www.w3.org/2000/svg" width="10" height="7" stroke="#FF7B86"><path fill="none"  stroke-width="2" d="M1 1l4 4 4-4"/></svg>
+                                <svg class="desktop" xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg>
+                            </div>
+                            <ul class="drop-down-menu dropthree">
+                                <li class="drop-down-menu-elem"><a href="#">Contact</a></li>
+                                <li class="drop-down-menu-elem"><a href="#">Newsletter</a></li>
+                                <li class="drop-down-menu-elem"><a href="#">LinkedIn</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="login-sign-up-mobile mobile">
+                        <a class="login-mobile" href="#">Login</a>
+                        <a class="sign-up-mobile" href="#">Sign Up</a>
+                    </div>
+                </div>
+            </div> <!-- left header container -->
+            <div class="login-register-container">
+                <a class="login" href="#">Login</a>
+                <a class="sign-up" href="#">Sign Up</a>
+            </div>
+            <div class="mobile menu-hamburger">
+                <button type="menu" id="menu-button">
+                    <img id="hamburger" src="./images/icon-hamburger.svg" alt="menu">
+                    <img id="close" src="./images/icon-close.svg" alt="menu">
+                </button>
+            </div>
+        </section>
+
+        <section class="top-content-first">
+            <div class="first-title-container">
+                <h1 class="first-title"> A modern publishing platform</h1>
+                <p class="first-discription">Grow your audience and build your online brand</p>
+                <div class="first-buttons-container">
+                    <a class="start-for-free" href="#">Start for Free</a>
+                    <a class="learn-more" href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <main>
+        <div class="after-top-container">
+            <div class="big-title-container">
+                <h1 class="title">Designed for the future</h1>
+            </div>
+            <div class="first-text-left-container">
+                <h2 class="para-title">Introducing an extensible editor</h2>
+                <p class="pragraphe">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
+
+                <h2 class="para-title second-title">Robust content management</h2>
+                <p class="pragraphe">Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+            </div>
+            <div class="illustration-editor-container">
+                <img class="desktop" src="./images/illustration-editor-desktop.svg" alt="illustration-editor">
+                <img class="mobile" src="./images/illustration-editor-mobile.svg" alt="illustration-editor">
+            </div>
+        </div>
+
+        <div class="before-bottom-container">
+            <div class="illustration-phone-container">
+                <img src="./images/illustration-phones.svg" alt="illustration-phones">
+            </div>
+            <div class="second-text-right-container">
+                <h1 class="before-bottom-title">State of the Art Infrastructure</h1>
+                <p class="paragraphe">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+            </div>
+        </div>
+
+        <div class="bottom-container">
+            <div class="illustration-laptop-container">
+                <img class="desktop" src="./images/illustration-laptop-desktop.svg" alt="illustration-laptop">
+                <img class="mobile" src="./images/illustration-laptop-mobile.svg" alt="illustration-laptop">
+            </div>
+            <div class="no-padding-for-this-one first-text-left-container ">
+                <h2 class="para-title">Free, open, simple</h2>
+                <p class="pragraphe">Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+
+                <h2 class="para-title second-title">Powerful tooling</h2>
+                <p class="pragraphe">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <ul class="footer-menu">
+            <li><img src="./images/logo.svg" alt=""></li>
+            <li class="footer-menu-elem">
+                <p>Product</p>
+                <ul class="sub-menu">
+                    <li class="sub-menu-elem"><a href="#">Overview</a></li>
+                    <li class="sub-menu-elem"><a href="#">Pricing</a></li>
+                    <li class="sub-menu-elem"><a href="#">Marketplace</a></li>
+                    <li class="sub-menu-elem"><a href="#">Features</a></li>
+                    <li class="sub-menu-elem"><a href="#">Integrations</a></li>
+                </ul>
+            </li>
+            <li class="footer-menu-elem">
+                <p>Company</p>
+                <ul class="sub-menu">
+                    <li class="sub-menu-elem"><a href="#">About</a></li>
+                    <li class="sub-menu-elem"><a href="#">Team</a></li>
+                    <li class="sub-menu-elem"><a href="#">Blog</a></li>
+                    <li class="sub-menu-elem"><a href="#">Careers</a></li>
+                </ul>
+            </li>
+            <li class="footer-menu-elem">
+                <p>Connect</p>
+                <ul class="sub-menu">
+                    <li class="sub-menu-elem"><a href="#">Contact</a></li>
+                    <li class="sub-menu-elem"><a href="#">Newsletter</a></li>
+                    <li class="sub-menu-elem"><a href="#">LinkedIn</a></li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
